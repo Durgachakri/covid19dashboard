@@ -35,7 +35,9 @@ class Header extends Component {
       <div className="header-container">
         <div className="nav-bar-sm-container">
           <Link to="/" className="nav-item-link">
-            <h1 className="logo-heading">COVID19INDIA</h1>
+            <h1 className="logo-heading">
+              COVID19<span className="india">INDIA</span>
+            </h1>
           </Link>
           <button
             type="button"
